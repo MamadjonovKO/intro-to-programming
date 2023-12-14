@@ -15,6 +15,8 @@
 - Write a function to convert hexadecimal numbers to decimal.
 - Design and implement functions using stepwise refinement.
 
+#
+
 ## 6.1 Introduction to Functions
 - Functions define reusable code and organize/simplify code.
 - Example of using functions to find the sum of integers within a specified range.
@@ -36,6 +38,8 @@ int main() {
 }
 ```
 
+#
+
 ### 6.2 Defining a Function
 - A function definition includes the function name, parameters, return value type, and body.
 - Syntax for defining a function.
@@ -52,6 +56,8 @@ int max(int num1, int num2) {
 }
 ```
 
+#
+
 ### 6.3 Calling a Function
 - Calling a function executes its code.
 - Value-returning functions can be invoked as values or statements.
@@ -64,6 +70,8 @@ int main() {
     return 0;
 }
 ```
+
+#
 
 ### 6.4 Void Functions
 - Void functions do not return a value.
@@ -79,6 +87,8 @@ void printGrade(double score) {
 }
 ```
 
+#
+
 ### 6.5 Passing Arguments by Value
 - Arguments are passed by value to functions.
 
@@ -89,6 +99,8 @@ void nPrint(char ch, int n) {
         cout << ch;
 }
 ```
+
+#
 
 ### 6.6 Modularizing Code
 - Modularizing code makes it easy to maintain and debug, and enables code reuse.
@@ -104,6 +116,8 @@ int gcd(int n1, int n2) {
     return n1;
 }
 ```
+
+#
 
 ### 6.7 Overloading Functions
 - Functions can be overloaded if they have different parameter lists.
@@ -135,6 +149,8 @@ int main() {
     return 0;
 }
 ```
+
+#
 
 ### 6.8 Function Prototypes
 - Function prototypes declare a function without implementing it.
@@ -172,6 +188,8 @@ double max(double num1, double num2, double num3) {
 }
 ```
 
+#
+
 ### 6.9 Default Arguments
 - Default arguments are used if no arguments are passed to a function.
 
@@ -191,6 +209,8 @@ int main() {
 }
 ```
 
+#
+
 ### 6.10 Inline Functions
 - Inline functions increase efficiency by avoiding function calls for small, frequently called functions.
 
@@ -205,6 +225,8 @@ int main() {
     return 0;
 }
 ```
+
+#
 
 ### 6.11 Scope of Variables
 - Variables declared in a function are local to that function.
@@ -230,6 +252,8 @@ int main() {
 }
 ```
 
+#
+
 ### 6.12 Passing Arguments by Reference
 - Passing arguments by reference allows functions to modify arguments.
 - Arguments are passed by reference by using the `&` operator.
@@ -251,6 +275,8 @@ int main() {
     return 0;
 }
 ```
+
+#
 
 ### 6.13 Const Parameters
 - Const parameters prevent accidental modification of arguments.
@@ -287,6 +313,9 @@ int main() {
     return 0;
 }
 ```
+
+#
+
 ### 6.14 Temperature Converter Function
 Write a function to convert temperatures between Fahrenheit and Celsius.
 
@@ -320,6 +349,8 @@ int main() {
 }
 ```
 
+#
+
 ### 6.15 Simple Interest Calculator
 Implement a function to calculate simple interest.
 
@@ -348,7 +379,9 @@ int main() {
 }
 ```
 
-## Conclusion
+#
+
+# Conclusion
 - Functions are essential for organizing and modularizing code in C++.
 - Understanding and applying function concepts enhances code efficiency and maintainability.
 - This chapter covers the basics and advanced aspects of function usage in C++.

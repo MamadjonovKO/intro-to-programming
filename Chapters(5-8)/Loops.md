@@ -14,6 +14,8 @@
 - Implement program control with `break` and `continue`.
 - Write programs to test palindromes and display prime numbers.
 
+#
+
 ## 5.1 Introduction to Loops
 - Loops allow for repeated execution of a block of statements.
 - Example of using a loop to display a message multiple times.
@@ -51,6 +53,7 @@ int main() {
 - The do-while loop also performs the same task, but it guarantees that the loop body is executed at least once.
 - The for loop succinctly combines initialization, condition checking, and incrementing in one line, making it very handy for situations where you know in advance how many times the loop should run.
 
+#
 
 ## 5.2 The `while` Loop
 - Executes statements repeatedly while the condition is true.
@@ -119,6 +122,8 @@ int main() {
 
 This example demonstrates a counter-controlled while loop, a practical use case, and highlights common pitfalls like off-by-one errors and infinite loops that programmers should be cautious about.
 
+#
+
 ## 5.3 The `do-while` Loop
 - Executes the loop body first, then checks the condition.
 - Suitable when the loop body must execute at least once.
@@ -154,6 +159,8 @@ int main() {
 
 This example clearly demonstrates how the do-while loop is effective for situations where the loop body must be executed at least once, such as validating user input.
 
+#
+
 ## 5.4 The `for` Loop
 - Concise syntax, typically used for counter-controlled iteration.
 - Example: Printing multiples of a number.
@@ -186,6 +193,8 @@ int main() {
 - The loop control variable i serves as the counter, controlling the number of iterations and the value of each multiple.
 
 This for loop example showcases its use in scenarios where you need a specific number of iterations, and each iteration follows a predictable pattern, like generating multiples of a number.
+
+#
 
 ## 5.5 Which Loop to Use?
 - `while` and `for` are pretest loops (check condition before execution).
@@ -257,6 +266,8 @@ int main() {
 }
 ```
 
+#
+
 ## 5.6 Nested Loops
 - A loop inside another loop.
 - Commonly used for multi-dimensional data processing(arrays, matrices etc) or when generating patterns.
@@ -296,6 +307,8 @@ int main() {
 This code generates a 10x10 multiplication table. The outer loop handles the rows, and for each row, the inner loop computes and displays the products for that row.
 
 When using nested loops, it's crucial to manage loop counters correctly to avoid errors, such as infinite loops or incorrect data processing. Each loop should have a distinct counter variable (row for the outer loop and col for the inner loop in the above example), and their scopes should not overlap unless intended for specific purposes.
+
+#
 
 ## 5.7 Minimizing Numeric Errors
 - Floating-point arithmetic can introduce errors in loops.
@@ -340,6 +353,8 @@ If precision is critical and the range of values is large, consider using data t
 Sometimes, rethinking the problem and using a different mathematical approach can inherently reduce errors. For instance, using iterative methods that accumulate less error or transforming the problem to a more stable numerical method.
 
 Remember, while these strategies help minimize errors, they cannot eliminate them entirely due to the inherent nature of floating-point arithmetic. The key is to be aware of potential issues and apply the best practices to keep the errors within acceptable limits.
+
+#
 
 ## 5.8 Case Studies
 - Practical applications and examples of loops:
@@ -417,6 +432,8 @@ int main() {
 ```
 These examples illustrate how loops can be effectively used in various practical scenarios, from mathematical calculations to data conversions.
 
+#
+
 ## 5.9 Keywords `break` and `continue`
 - `break`: Exits the nearest enclosing loop immediately.
   Example: Finding the First Positive Integer Divisible by 7
@@ -446,6 +463,8 @@ for (int i = 1; i <= 10; i++) {
 - `break`: Exits a loop when a specific condition is met. In the example, it stops the search for the first number divisible by 7.
 - `continue`: Skips the current iteration if certain conditions are true. For instance, it skips even numbers in the loop of numbers from 1 to 10.
 - Using these keywords can simplify certain tasks but should be employed carefully to maintain code readability.
+
+#
 
 ## 5.10 Checking Palindromes(exercise)
 - Algorithm and code example to check if a string is a palindrome.
@@ -477,6 +496,8 @@ int main() {
     return 0;
 }
 ```
+
+#
 
 ## 5.11 Displaying Prime Numbers(exercise)
 - Program to display the first 50 prime numbers.
